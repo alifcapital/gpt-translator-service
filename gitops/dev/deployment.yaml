@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: gtp-translate
-          image: alifbank/gpt-translator-service:5d0c281dd765cdeef34a0be8133964629b35e0c5
+          image: alifbank/gpt-translator-service:af2c399b9714449391ea95345424900e5983f508
           imagePullPolicy: Always
           ports:
             - containerPort: 8000  
